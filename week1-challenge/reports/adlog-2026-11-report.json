@@ -1,0 +1,57 @@
+{
+  "station": "Sauti ya Nkubu FM",
+  "source": "adlog-2026-11.csv",
+  "first_day": "2026-11-02",
+  "last_day": "2026-11-30",
+  "rows_read": 29,
+  "accepted": 22,
+  "rejected": 7,
+  "total_ksh": 26200,
+  "advertisers": [
+    {
+      "name": "Gitimene Agrovet",
+      "spots": 5,
+      "seconds": 165,
+      "amount_ksh": 6200
+    },
+    {
+      "name": "Nkubu Technical College",
+      "spots": 4,
+      "seconds": 165,
+      "amount_ksh": 5800
+    },
+    {
+      "name": "Imenti Furniture Works",
+      "spots": 4,
+      "seconds": 165,
+      "amount_ksh": 5300
+    },
+    {
+      "name": "Kinoru Hardware",
+      "spots": 4,
+      "seconds": 135,
+      "amount_ksh": 4900
+    },
+    {
+      "name": "Mutethia Electronics",
+      "spots": 5,
+      "seconds": 195,
+      "amount_ksh": 4000
+    }
+  ],
+  "slots_ksh": {
+    "Breakfast": 15000,
+    "Midday": 2100,
+    "Drive": 7500,
+    "Night": 1600
+  },
+  "problems": [
+    "line 7: seconds must be a whole number, not 'thirty'",
+    "line 10: spot_id NK-1108 is already on line 9",
+    "line 12: time must be HH:MM like 06:15, not '25:10'",
+    "line 16: the station is off air at 04:45",
+    "line 19: seconds must be 15, 30, 45 or 60, not 20",
+    "line 21: advertiser is blank",
+    "line 25: date must be a real date like 2026-11-05, not '2026-11-31'"
+  ]
+}
